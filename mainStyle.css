@@ -1,11 +1,7 @@
 
 body{
     background-color:#ffeaca;
-   /* background-image:url("assets/MajLiving.avif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;*/
+
 
 }
 
@@ -34,7 +30,7 @@ pp{
  
 
   /* Set a specific height */
-  height: 500px;
+  height: 100vh; 
 
   /* Create the parallax scrolling effect */
   background-image:url("assets/MajLiving.avif");
@@ -49,7 +45,7 @@ pp{
 
 
   /* Set a specific height */
-  height: 500px;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-image:url("assets/MajDoc.avif");
@@ -64,7 +60,7 @@ pp{
 
 
   /* Set a specific height */
-  height: 500px;
+   height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-image:url("assets/MajYard.avif");
@@ -80,7 +76,7 @@ pp{
  
 
   /* Set a specific height */
-  height: 500px;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-image:url("assets/MajLounge.avif");
@@ -257,24 +253,4 @@ opacity:0.5;
   content: "";
   display: table;
   clear: both;
-}
-
-@media only screen and (max-width: 768px) {
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-attachment: scroll;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    min-height: 300px; /* optional */
-  }
-
-  .parallax1::before,
-  .parallax2::before,
-  .parallax3::before,
-  .parallax4::before {
-    content: '';
-    display: block;
-    padding-top: 56.25%; /* maintain aspect ratio (16:9) */
-  }
 }
