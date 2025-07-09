@@ -258,3 +258,11 @@ opacity:0.5;
   display: table;
   clear: both;
 }
+
+@media only screen and (max-width: 768px) {
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain; /* or cover, depending on the image layout */
+  }
+}
