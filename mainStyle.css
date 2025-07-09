@@ -262,7 +262,19 @@ opacity:0.5;
 @media only screen and (max-width: 768px) {
   .parallax1, .parallax2, .parallax3, .parallax4 {
     background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; /* or cover, depending on the image layout */
+    height: auto;
+    min-height: 300px; /* optional */
+  }
+
+  .parallax1::before,
+  .parallax2::before,
+  .parallax3::before,
+  .parallax4::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%; /* maintain aspect ratio (16:9) */
   }
 }
