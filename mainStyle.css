@@ -1,20 +1,14 @@
-
 body{
     background-color:#ffeaca;
-
-
 }
 
 pl{
-    font-size:medium;
-    
+    font-size:medium;   
 }
 
 pp{
     font-size:large;
-    
 }
-
 
 .paralaxText{
   /*height:30vh;*/
@@ -87,6 +81,18 @@ pp{
 }
 
 
+
+@media (max-width: 768px) {
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    background-attachment: scroll !important;
+    height: 50vh;
+  }
+}
+
+
+
+
+
 .container {
   height: 100vh;
   background: #ffeaca;
@@ -97,17 +103,7 @@ pp{
   z-index: 0;
 
 }
-/*
-.logo {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20vw;
-  z-index: 1000;
 
-}
-*/
 
  .container-2 {
   height: 100vh;
@@ -253,26 +249,4 @@ opacity:0.5;
   content: "";
   display: table;
   clear: both;
-}
-
-
-
-@media only screen and (max-width: 768px) {
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-attachment: scroll;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    min-height: 300px; /* optional 
-  }
-
-  .parallax1::before,
-  .parallax2::before,
-  .parallax3::before,
-  .parallax4::before {
-    content: '';
-    display: block;
-    padding-top: 56.25%; /* maintain aspect ratio (16:9) 
-  }
 }
