@@ -222,6 +222,15 @@ width: clamp(250px, 20vw, 300px);
   font-style: normal;
 }
 
+
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /*booking*/
 
 /* || Gallery (Pictures) */
