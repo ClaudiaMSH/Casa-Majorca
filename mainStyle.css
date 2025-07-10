@@ -87,6 +87,8 @@ pp{
       background-attachment: scroll !important;
       width: 100vw;
       height:60vh;
+      margin-top:1%;
+      margin-bottom:1%;
   }
 }
 
