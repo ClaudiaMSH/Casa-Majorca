@@ -3,13 +3,12 @@ body{
 }
 
 pl{
-    font-size:medium; 
+    font-size:medium;  
 }
 
 pp{
     font-size:large;
 }
-
 
 .paralaxText{
   /*height:30vh;*/
@@ -83,16 +82,12 @@ pp{
 
 
 
-
 @media (max-width: 768px) {
   .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-attachment: scroll !important;
-    
+
+      height: 63vh;
   }
 }
-
-
-
 
 
 .container {
