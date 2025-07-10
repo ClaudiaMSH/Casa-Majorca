@@ -85,7 +85,7 @@ pp{
 @media (max-width: 768px) {
   .parallax1, .parallax2, .parallax3, .parallax4 {
       background-attachment: scroll !important;
-      height: 100vw;
+      width: 100vw;
   }
 }
 
