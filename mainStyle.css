@@ -1,17 +1,13 @@
 body{
     background-color:#ffeaca;
-
-
 }
 
 pl{
-    font-size:medium;
-    
+    font-size:medium; 
 }
 
 pp{
     font-size:large;
-    
 }
 
 
@@ -36,7 +32,7 @@ pp{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+   background-size: contain;
 }
 
 .parallax2 {
@@ -51,7 +47,7 @@ pp{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+   background-size: contain;
 }
 
 .parallax3 {
@@ -66,7 +62,7 @@ pp{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+   background-size: contain;
 }
 
 
@@ -82,15 +78,16 @@ pp{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
+
 
 
 
 @media (max-width: 768px) {
   .parallax1, .parallax2, .parallax3, .parallax4 {
     background-attachment: scroll !important;
-    height: 50vh;
+    
   }
 }
 
