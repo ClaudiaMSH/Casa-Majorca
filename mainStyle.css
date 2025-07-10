@@ -1,14 +1,19 @@
 body{
     background-color:#ffeaca;
+
+
 }
 
 pl{
-    font-size:medium;   
+    font-size:medium;
+    
 }
 
 pp{
     font-size:large;
+    
 }
+
 
 .paralaxText{
   /*height:30vh;*/
